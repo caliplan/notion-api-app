@@ -1,16 +1,15 @@
 {
   "name": "notion-api-app",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Notion API integration for ChatGPT",
+  "main": "functions/notion.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "netlify dev"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "@notionhq/client": "^2.2.15",
-    "dotenv": "^16.4.5"
+    "@notionhq/client": "^1.0.4"
+  },
+  "devDependencies": {
+    "netlify-cli": "^12.0.11"
   }
 }
